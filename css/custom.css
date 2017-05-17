@@ -1,0 +1,385 @@
+
+.ntv-publication {
+    margin: 0 auto;
+}
+.ntv-tile {
+    position: absolute;
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    display: none;
+}
+
+.ntv-post-content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.ntv-content-2 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.ntv-media {
+    width: 100%;
+    height: 37.5%;
+    overflow: hidden;
+}
+
+.ntv-post-img {
+    height: 100%;
+    width: 100%;
+}
+
+.ntv-post-media video, .ntv-post-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.ntv-source {
+    width: 100%;
+    margin: 0 auto;
+    order: 2;
+    position: relative;
+}
+
+.ntv-source-logo {
+    background: #f4f3f9;
+    position: absolute;
+    border-radius: 50px;
+    padding: 5px;
+    box-sizing: content-box;
+    left: 50%;
+    margin-left: -30px;
+    width: 40px;
+    height: 40px;
+    top: -25px;
+}
+
+.ntv-source-logo  img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.ntv-post-title {
+    order: 3;
+    padding: 0 1.143em;
+    margin: 2.286em 0 0 0;
+}
+
+.ntv-post-title  a {
+    color: #212121;
+    font-size: 1.714em;
+    font-weight: 700;
+    line-height: 1.167em;
+}
+
+.ntv-author {
+    order: 4;
+    margin-top: 0.714em;
+    padding: 0 1.143em;
+}
+
+.ntv-author img {
+    width: 40px;
+    height: 40px;
+    box-sizing: content-box;
+    background: #fff;
+    border-radius: 25px;
+}
+
+.ntv-author-avatar {
+    float: left;
+    margin-right: 0.714em;
+}
+
+.ntv-author-avatar a {
+    display: block;
+    height: 40px;
+}
+
+.ntv-author-name {
+    font-weight: 700;
+    color: #2e2d2e;
+    float: left;
+    line-height: 2.857em;
+    font-size: 1em;
+}
+
+.ntv-author-handle {
+    display: none;
+}
+
+.ntv-content {
+    order: 5;
+    padding: 0 1.143em;
+    margin-top: 0.714em;
+    text-align: justify;
+    margin-bottom: 2.286em;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.ntv-post-menu {
+    display: none;
+}
+
+.ntv-post-date, .ntv-post-engagement {
+    order: 6;
+    font-size: 0.857em;
+    color: #808284;
+    padding: 0 8px;
+    margin-bottom: 0.571em;
+}
+
+.ntv-post-date {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.ntv-post-engagement {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.ntv-post-like , .ntv-post-comment, .ntv-post-dislike, .ntv-post-share, .ntv-post-views {
+    padding-left: 1.571em;
+    margin-left: 0.714em;
+}
+
+.ntv-post-like  {
+    background: url("/img/icons/like.svg") no-repeat top left;
+}
+
+.ntv-post-share  {
+    background: url("/img/icons/share.svg") no-repeat top left;
+}
+
+.ntv-post-comment  {
+    background: url("/img/icons/comment.svg") no-repeat top left;
+}
+
+.ntv-post-dislike  {
+    background: url("/img/icons/dislike.svg") no-repeat top left;
+}
+
+.ntv-post-views  {
+    background: url("/img/icons/views.svg") no-repeat top left;
+}
+
+.ntv-content-2:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.ntv-post-no-media {
+    width: 100%;
+    height: 37.5%;
+    background: url(https://panel.nativeo.pl/assets/images/no-image-placeholder.png) no-repeat center center;
+    background-size: cover;
+}
+
+.ntv-info-text {
+    font-size: 14px;
+    display: none;
+}
+
+.ntv-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.ntv-error-text {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.ntv-success-text {
+    color: green;
+    font-size: 14px;
+    display: none;
+}
+
+.ntv-cookies-bar {
+    position: fixed;
+    top: 0px;
+    opacity: 0.8;
+    z-index: 2000;
+    color: #fbfbfb;
+    background-color: #563333;
+    padding: 1px 5px 10px 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.ntv-button {
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #7e7e7e;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    border: none;
+}
+
+.ntv-button:hover {
+    background: #a0a0a0;
+    text-decoration: none;
+}
+
+.ntv-button:disabled {
+    color: #bfbfbf;
+    background: #a9a9a9;
+    text-decoration: none;
+    cursor:not-allowed;
+}
+
+.ntv-form-label {
+    display: block;
+    padding: 0px;
+    margin: 5px 0px 0px;
+    font-size: 14px;
+}
+
+.ntv-input {
+    width: 100%;
+    padding: 5px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+.ntv-input:focus, .ntv-input.focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+.ntv-lead-catcher-form > input {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+}
+
+.ntv-youtube-embed {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.ntv-youtube-container {
+    height: 100%;
+    position: relative;
+    background-color: #010101
+}
+
+.ntv-youtube-poster {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.ntv-youtube-play-button {
+    position: absolute;
+    width: 64px;
+    height: 46px;
+    margin-left: -32px;
+    margin-top: -23px;
+    top: 50%;
+    left: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.ntv-youtube-play-button:hover {
+    opacity: 0.95;
+}
+
+.ntv-content-1 {
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+.ntv-content-1 .ntv-static {
+    height: 100%;
+    padding: 10px;
+}
+.ntv-content-3 {
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.ntv-content-3 .ntv-static {
+    height:100%;
+    padding: 10px;
+}
+
+.ntv-contest-header {
+    display: none;
+}
+
+.ntv-contest-media-wrapper {
+    height: 37.5%;
+}
+
+.ntv-contest-media {
+    height: 100%;
+    background-size: cover;
+}
+
+.ntv-contest-img {
+    height: 100%;
+}
+
+.ntv-contest-page {
+    height: 100%;
+}
+
+.ntv-regulations {
+    display: none;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 1.286em;
+    color: #000;
+    background-color: #bfbfbf
+}
+a {
+    text-decoration: none;
+    color: #507fd7;
+}
