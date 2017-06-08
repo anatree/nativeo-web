@@ -1,0 +1,136 @@
+.ntv-tile {
+    margin-bottom: 10px;
+    width: 95%
+}
+
+.ntv-post-no-media {
+    min-height: 200px;
+}
+
+.ntv-img.ntv-contest-img {
+    min-height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ntv-content {
+    color: black;
+}
+
+.ntv-error-text, .ntv-success-text, .ntv-info-text {
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    margin-bottom: 15px;
+}
+
+.ntv-contest-page .ntv-content[summary-page] {
+    text-align: center;
+    padding: 20px 0px 0px 5px;
+}
+
+.ntv-button {
+    font-size: 20px !important;
+}
+
+.slides.stage-6 .panel.top {
+    top: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.20);
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.ntv-lead-catcher-form {
+    text-align: center;
+}
+
+.ntv-lead-catcher-form button {
+    width: 91%;
+    max-width: 300px;
+}
+
+.arrowRight::after {
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url(../assets/svg/arrow.svg) no-repeat top left;
+    background-size: contain;
+    left: -26px;
+    top: 41%;
+}
+
+/*two*/
+@media (max-width: 1279px) {
+    .arrowRight.arrowShowMedium::after  {
+        display: block;
+    }
+
+    .arrowRight.arrowHideMedium::after  {
+        display: none;
+    }
+}
+/*one col*/
+@media (min-width: 1279px) {
+
+    .arrowRight.arrowShowLarge::after {
+        display: block;
+    }
+
+    .arrowRight.arrowHideLarge::after  {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .arrowRight::after {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        top:-40px;
+        left: 45%;
+    }
+    .arrowRight.arrowShowSmall::after  {
+        display: block;
+    }
+
+    .arrowRight.arrowHideSmall::after  {
+        display: none;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width: 800px) {
+    .ntv-tile {
+        margin-bottom: 10px;
+        width: 95%
+    }
+}
+
+/*Medium screens*/
+@media only screen and (min-width: 800px) {
+    .ntv-tile {
+        margin-bottom: 10px;
+        width: 45%
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width: 1224px) {
+    .ntv-tile {
+        margin-bottom: 10px;
+        width: 31.666666667%
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width: 1824px) {
+    .ntv-tile {
+        margin-bottom: 10px;
+        width: 23.75%
+    }
+}
+
+
+
