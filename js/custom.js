@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 
     var nativeoContainer = "#nativeo-embed"
-    new NativeoEmbed(nativeoContainer, "9b01d95abc904944b060968ef23a0915", 16);
+    new NativeoEmbed(nativeoContainer, "9b01d95abc904944b060968ef23a0915", 32);
 
     var oldRefreshGrid = window.NativeoCommons.refreshGrid;
 
